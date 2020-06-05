@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.resistance" version="8.0.0.2.2" name="Resistance" provider-name="lockdown_machine">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.resolveurl"/>
+		<import addon="script.module.openscrapers" />
+        <import addon="script.module.metahandler"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.futures"/>
+		<import addon="script.elementum.burst" />
+		<import addon="plugin.video.elementum" />
+		<import addon="context.elementum" />
+        </requires>
+	<extension point="xbmc.python.pluginsource" library="resistance.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Movies and tv player</summary>
+		<description lang="en">Plugin that scrapes web pages for content use at your own risk</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon.
+</disclaimer>
+		<platform>all</platform>
+		<license>GNU</license>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
