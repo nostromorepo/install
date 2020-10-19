@@ -1,10 +1,10 @@
 <addons>
-<addon id="repository.nostromo" name="Nostromo" version="1.0.0.1.2" provider-name="Nostromo">
-	<extension point="xbmc.addon.repository" name="nostromo">
+<addon id="repository.resistance" name="resistance" version="1.0.0.1.2" provider-name="resistance">
+	<extension point="xbmc.addon.repository" name="resistance">
 	    <dir>
-		    <info compressed="false">https://raw.githubusercontent.com/nostromorepo/install/master/plugins/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/nostromorepo/install/master/plugins/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/nostromorepo/install/master/plugins</datadir>
+		    <info compressed="false">https://raw.githubusercontent.com/resistancerepo/install/master/plugins/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/resistancerepo/install/master/plugins/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/resistancerepo/install/master/plugins</datadir>
         </dir>
 		 <dir minversion="16.0.0">
             <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
@@ -43,8 +43,8 @@
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Nostromo Repository</summary>
-		<description>Nostromo Repository</description>
+		<summary>resistance Repository</summary>
+		<description>resistance Repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -320,7 +320,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.program.nostromo" name="nostromo" version="1.4.1.0.0" provider-name="lockdown">
+<addon id="plugin.program.resistance" name="resistance" version="1.4.1.0.0" provider-name="lockdown">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -329,8 +329,22 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">nostromo wizard</summary>
+    <summary lang="en">resistance wizard</summary>
     <description lang="en">new wizard for kodi builds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.program.metalgear" name="Metalgear Wizard" version="1.1.1.1.0" provider-name="Solid_Snake">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">metalgear wizard</summary>
+    <description lang="en">metalgear wizard</description>
     <platform>all</platform>
   </extension>
 </addon>
