@@ -320,7 +320,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.program.metalgear" name="Metalgear Wizard" version="1.1.2.2.2" provider-name="Solid_Snake">
+addon id="plugin.program.nostromo" name="nostromo" version="1.4.1.0.0" provider-name="lockdown">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -329,8 +329,8 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">metalgear wizard</summary>
-    <description lang="en">metalgear wizard</description>
+    <summary lang="en">nostromo wizard</summary>
+    <description lang="en">new wizard for kodi builds</description>
     <platform>all</platform>
   </extension>
 </addon>
