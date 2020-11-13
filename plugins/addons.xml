@@ -320,7 +320,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="plugin.program.nostromo" name="nostromo" version="1.4.1.0.0" provider-name="lockdown">
+<addon id="plugin.program.lockdown" name="lockdown Wizard" version="1.4.1.1.1" provider-name="LOCKDOWN">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -329,8 +329,8 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">nostromo wizard</summary>
-    <description lang="en">new wizard for kodi builds</description>
+    <summary lang="en">lockdown wizard</summary>
+    <description lang="en">lockdown wizard</description>
     <platform>all</platform>
   </extension>
 </addon>
