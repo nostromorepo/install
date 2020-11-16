@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.ego" version="2019.0.7.0.1.0.0.2" name="[COLOR yellow]I Am ego[/COLOR]" provider-name="Guardian_Guru">
+<addon id="plugin.video.ego" version="2020.1.1.1.5.0.0.3" name="[COLOR yellow]I Am ego[/COLOR]" provider-name="Guardian_Guru">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -31,18 +31,8 @@
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/screenshot01a.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot02a.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot03a.jpg</screenshot>
 		</assets>
 		<news>
-[B][COLOR red]Update - v3.0.0 - June 28, 2019[/COLOR][/B]
-[COLOR yellow]--[/COLOR][I] Removed Trakt sync notice at startup.[/I]
-[COLOR yellow]--[/COLOR][I] New icon and menu label system.  You can now set the icon
-    style based on Traditional icons or Meta Provider Logos.
-    You can also add the Meta Provider label to the menu
-    item .. ex (TMDb).  This helps distinguish between.. ex
-    "Popular (IMDb) and Popular (TMDb)[/I]
 		</news>
 	</extension>
 
